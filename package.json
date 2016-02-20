@@ -4,6 +4,11 @@
   "private": true,
   "author": "Yoshiki Aoki <yoshiki_aoki@example.com>",
   "description": "Excellent working bot",
+  "scripts": {
+    "build": "babel src --presets es2015 --out-dir ./builds",
+    "prestart": "npm run build",
+    "start": "bin/hubot -r builds"
+  },
   "dependencies": {
     "hubot": "2.18.0",
     "hubot-help": "0.1.3",
