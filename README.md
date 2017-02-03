@@ -1,4 +1,6 @@
 # es6-hubot
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ringohub/es6-hubot.svg)](https://greenkeeper.io/)
 Hubot for ES6
 
 ## How to start
